@@ -21,6 +21,32 @@
         9. Aplique a propriedade font-family com o valor 'Arial', sans-serif para que o texto das células seja exibido em uma fonte Arial.
         
         */
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 20px;
+            text-align: center;
+            
+
+            
+           
+            
+        }
+        th{
+            color: white;
+            background-color: black;
+            
+            
+        }
+        td{
+            color: black;
+            border: 1px solid #000;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .par{
+            background-color: #f2f2f2;
+        }
 
     </style>
 </head>
@@ -43,7 +69,7 @@
                 <td>Programador</td>
                 <td>Ativo</td>
             </tr>
-            <tr>
+            <tr class="par">
                 <td>Maria</td>
                 <td>32</td>
                 <td>Designer</td>
@@ -55,7 +81,7 @@
                 <td>Engenheiro</td>
                 <td>Inativo</td>
             </tr>
-            <tr>
+            <tr class="par">
                 <td>Julia</td>
                 <td>38</td>
                 <td>Analista</td>
@@ -67,7 +93,7 @@
                 <td>Designer</td>
                 <td>Ativo</td>
             </tr>
-            <tr>
+            <tr class="par">
                 <td>Elizabete</td>
                 <td>33</td>
                 <td>Professora</td>
